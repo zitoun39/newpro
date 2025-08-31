@@ -1,0 +1,30 @@
+# لا ترفع الاعتمادات المحلية
+node_modules
+npm-debug.log*
+yarn-error.log*
+dist
+build
+.tmp
+.temp
+.cache
+.expo
+.expo-shared
+
+# لا ترفع مجلدات منصة لو تبني Managed
+android
+ios
+
+# أشياء كبيرة/غير لازمة
+*.keystore
+*.jks
+*.apk
+*.aab
+*.ipa
+*.zip
+*.tar
+*.tar.gz
+*.DS_Store
+.git
+.gitignore
+.vscode
+.packages
